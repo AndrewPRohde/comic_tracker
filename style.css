@@ -1,6 +1,28 @@
-header {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 48px;
-    background-color: grey;
-    margin: 0%;
+.topnav {
+    background-color: #0000ff;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.topnav a:hover {
+    background-color: blueviolet;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: blueviolet;
+    color: black
+}
+
+.latest {
+    padding: 14px 16px;
+    text-align: left;
 }
